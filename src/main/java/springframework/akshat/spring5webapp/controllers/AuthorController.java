@@ -7,7 +7,7 @@ import springframework.akshat.spring5webapp.repositories.AuthorRepository;
 
 @Controller
 public class AuthorController {
-    
+
     private AuthorRepository authorRepository;
 
     public AuthorController(AuthorRepository authorRepository) {
